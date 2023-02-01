@@ -1,0 +1,19 @@
+.sidebarbtn{
+    font-size: 30px;
+    border: none;
+    color: brown;
+    padding: 10px;
+    background-color: blue;
+}
+
+.sidebarcon{
+    position: fixed;
+    transform: translateX(-10rem);
+    width: 10rem;
+    background-color: red;
+}
+
+.openSidebar{
+  transform: translateX(0);
+}
+

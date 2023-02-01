@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href = "style.css"/>
+    <meta charset="UTF-8">
+    <title>Book Fair</title>
+    
+</head>
+<body>
+    <div class= "page">
+        <header class="header">
+            <div class="name">
+                <button class="sidebarbtn" onclick="Menu()">
+                    &#x2192;
+                </button>
+                <a href="book fair.html"> Book Fair</a>
+            </div>
+            <div class="left-side">
+                <a href="#">Cart</a>
+                <a href ="#">SignIn</a>
+            </div>
+        </header>
+
+        <!-- Side bar -->
+        <aside class = "sidebarcon">
+            <h3>Book Categories</h3>
+            <ul>
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Romance</a></li>
+            </ul>
+        </aside>
+        
+    </div>
+
+    <!-- JS -->
+    <script>
+        function Menu(){
+            document.querySelector(".sidebarcon").classList.add("openSidebar");
+        }
+    </script>
+</body>
+</html>
